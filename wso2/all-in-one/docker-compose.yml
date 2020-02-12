@@ -1,0 +1,8 @@
+version: "3"
+services:
+  wso2-identity-server:
+    image: "wso2/wso2is"
+    hostname: "wso2-identity-server"
+    container_name: "wso2-identity-server"
+    ports:
+      - "9443:9443"
